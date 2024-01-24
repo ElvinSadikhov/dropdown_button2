@@ -470,7 +470,7 @@ class _CustomModalBarrierState extends State<_CustomModalBarrier> {
 
   @override
   Widget build(BuildContext context) {
-    final size = MediaQuery.sizeOf(context);
+    final Size size = MediaQuery.of(context).size;
 
     return Stack(
       children: [
